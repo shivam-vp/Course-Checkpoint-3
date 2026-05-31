@@ -1,0 +1,39 @@
+# Exercise 1: 
+string = "learning python"
+number = 25
+list = ["apple", "banana", "cherry", "date"]
+boolean = True
+
+# Exercise 2:  
+first_three = string[0:3]
+
+# Exercise 3: 
+first_element = list[0]
+
+# Exercise 4:  
+new_number = number + 10
+
+# Exercise 5:  
+last_element = list[-1]
+
+# Exercise 6: 
+names = 'harry,alex,susie,jared,gail,conner'
+names_list = names.split(',')
+
+# Exercise 7:
+first_word = string[0:8].upper()
+combined_string = first_word + string[8:]
+
+# Exercise 8: 
+print(f"The total count of items is {new_number}.")
+
+# Exercise 9:
+print("hello world")
+
+print(f"Exercise 1 Result: {string, number, list, boolean}")
+print(f"Exercise 2 Result: {first_three}")
+print(f"Exercise 3 Result: {first_element}")
+print(f"Exercise 4 Result: {new_number}")
+print(f"Exercise 5 Result: {last_element}")
+print(f"Exercise 6 Result: {names_list}")
+print(f"Exercise 7 Result: {combined_string}")
