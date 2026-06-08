@@ -1,0 +1,6 @@
+og_string = "Hola, world!"
+index = og_string.find("Hola")
+print(f"'Hola' found at index: {index}")
+new_string = og_string.replace("Hola", "adiós")
+print(f"Original string: {og_string}")
+print(f"Updated string: {new_string}")
